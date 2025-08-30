@@ -149,8 +149,8 @@ implements Recipe<RecipeInput> {
             if (stack.getItem() == RootsRegistry.INFERNAL_BULB.get() && maxCapacity < 2) {
                 maxCapacity = 2;
             }
-            if (stack.getItem() != RootsRegistry.DRAGONS_EYE.get() || maxCapacity >= 3) continue;
-            maxCapacity = 3;
+            if (stack.getItem() != RootsRegistry.DRAGONS_EYE.get() || maxCapacity >= 10) continue;
+            maxCapacity = 10;
         }
         return maxCapacity;
     }
